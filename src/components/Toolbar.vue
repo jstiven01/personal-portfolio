@@ -11,9 +11,9 @@
 
             <v-spacer></v-spacer>
             <v-toolbar-items>
-                <v-btn color="success">About</v-btn>
-                <v-btn color="success">My work</v-btn>
-                <v-btn color="success">Contact</v-btn>
+                <v-btn color="success" @click="$vuetify.goTo('#about', options)">About</v-btn>
+                <v-btn color="success" @click="$vuetify.goTo('#portfolio', options)">My work</v-btn>
+                <v-btn color="success" @click="$vuetify.goTo('#contact', options)">Contact</v-btn>
             </v-toolbar-items>
         </v-layout>
             
@@ -25,5 +25,14 @@
 <script>
 export default {
     name: "Toolbar",
+    data(){
+        return {
+            options: {
+            duration: 300,
+            offset: 0,
+            easing: "easeInOutCubic"
+       }
+        }
+    }
 }
 </script>

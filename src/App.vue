@@ -1,7 +1,8 @@
 <template>
   <v-app>
     <Toolbar />
-    <v-content>
+    <v-content id="main-container">
+      <router-view />
     </v-content>
     <Footer />
 
@@ -11,6 +12,8 @@
 <script>
 import Toolbar from './components/Toolbar';
 import Footer from './components/Footer'
+
+
 
 export default {
   name: 'App',
@@ -25,3 +28,9 @@ export default {
   }),
 };
 </script>
+
+<style>
+#main-container {
+  background-color: white;
+}
+</style>
