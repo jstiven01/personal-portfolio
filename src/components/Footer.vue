@@ -9,7 +9,7 @@
       cols="12"
     >
       {{ new Date().getFullYear() }}
-      <strong>Johan Tinjaca Tocora</strong>
+      <strong>Johan Stiven Tinjaca</strong>
     </v-col>
   </v-footer>
 </template>

@@ -38,7 +38,7 @@
                 color="success"
                 @click="$vuetify.goTo('#about', options)"
               >
-                <v-list-item-title>About</v-list-item-title>
+                <v-list-item-title>About me</v-list-item-title>
               </v-list-item>
               <v-list-item
                 color="success"

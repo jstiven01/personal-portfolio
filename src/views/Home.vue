@@ -36,20 +36,13 @@
           <div class="body-1">
             {{ aboutText }}
           </div>
-          <div class="body-1">
-            Working Microverse
-          </div>
         </v-col>
       </v-row>
-      <div
-        class="height-long"
-        style="height: 600px;"
-      />
       <v-row>
-        <v-col>
+        <v-col cols="12">
           <div
             id="portfolio"
-            class="display"
+            class="display-1"
           >
             My Work
           </div>
@@ -60,11 +53,7 @@
 
           </template>-->
         </v-col>
-      </v-row>
-      <div
-        class="height-long"
-        style="height: 600px;"
-      />               
+      </v-row>              
       <v-row>
         <v-col cols="12">
           <div
