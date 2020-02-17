@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-card
-      class="mx-auto"
+      class="mx-auto my-3"
       max-width="400"
     >
       <v-img
@@ -114,7 +114,7 @@
     </v-card>
 
     <v-card
-      class="mx-auto"
+      class="mx-auto my-3"
       max-width="400"
     >
       <v-img
@@ -205,7 +205,7 @@
 
 
     <v-card
-      class="mx-auto"
+      class="mx-auto my-3"
       max-width="400"
     >
       <v-img
@@ -213,6 +213,7 @@
         height="200px"
         src="@/assets/portfolio/img/fbclone.png"
         gradient="to bottom left, rgba(100,115,201,.33), rgba(25,32,72,.7)"
+        position="top"
       >
         <v-card-title>Facebook Clone</v-card-title>
       </v-img>
@@ -296,7 +297,7 @@
     </v-card>
 
     <v-card
-      class="mx-auto"
+      class="mx-auto my-3"
       max-width="400"
     >
       <v-img

@@ -3,10 +3,9 @@
     <v-img
       dark
       max-height="500px"
+      class="white--text align-end"
       src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
     >
-      >
-
       <v-container fill-height>
         <v-row>
           <v-col
@@ -15,8 +14,8 @@
             align-self="stretch"
             class="white--text"
           >
-            <div class="title black">
-              <strong> Let's buid some Apps </strong>
+            <div class="headline">
+              <strong> Let's build some Apps. </strong>
             </div>
           </v-col>
         </v-row>
@@ -33,7 +32,7 @@
           </div>
         </v-col>
         <v-col cols="12">
-          <div class="body-1">
+          <div class="body-1 px-4">
             {{ aboutText }}
           </div>
         </v-col>
