@@ -3,7 +3,7 @@
     <v-img
       dark
       max-height="500px"
-      src="https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+      src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
     >
       >
 
@@ -11,35 +11,28 @@
         <v-row>
           <v-col
             cols="12"
-            justify="center"
-            align="center"
+            justify="end"
+            align-self="stretch"
             class="white--text"
           >
-            <div class="display-2">
-              Welcome
-            </div>
-            <div class="headline">
-              Developing apps22
+            <div class="title black">
+              <strong> Let's buid some Apps </strong>
             </div>
           </v-col>
         </v-row>
       </v-container>
     </v-img>
     <v-container class="mt-5">
-      <div
-        class="height-long"
-        style="height: 600px;"
-      />
       <v-row>
-        <v-col>
+        <v-col cols="12">
           <div
             id="about"
             class="display-1"
           >
-            This is me
+            About me
           </div>
         </v-col>
-        <v-col>
+        <v-col cols="12">
           <div class="body-1">
             {{ aboutText }}
           </div>
@@ -104,7 +97,7 @@ export default {
   },
   data(){
     return{
-      aboutText: "I love software",
+      aboutText: "I am a software developer for more than 15 years at different systems like financial, ERP, open source systems etc. Currently I am passionated about Web development and Machine Learning. A person with team work abilities, strengths in objective decision making, willingness for learning and knowledge, skilled at development and testing software, planning, management and implementation of projects.",
       apps: [
         {
           name: "Food Vision",
