@@ -1,56 +1,91 @@
 <template>
   <div class="home">
-    <v-img dark max-height="500px" src="https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+    <v-img
+      dark
+      max-height="500px"
+      src="https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
     >
+      >
 
-      <v-container fill-height >
-        <v-row >
-          <v-col cols="12" justify="center" align="center" class="white--text">
-            <div class="display-2">Welcome</div>
-            <div class="headline">Developing apps22</div>
+      <v-container fill-height>
+        <v-row>
+          <v-col
+            cols="12"
+            justify="center"
+            align="center"
+            class="white--text"
+          >
+            <div class="display-2">
+              Welcome
+            </div>
+            <div class="headline">
+              Developing apps22
+            </div>
           </v-col>
         </v-row>
-    </v-container>
+      </v-container>
     </v-img>
     <v-container class="mt-5">
-      <div class="height-long" style="height: 600px;"></div>
+      <div
+        class="height-long"
+        style="height: 600px;"
+      />
       <v-row>
         <v-col>
-          <div class="display-1" id="about">This is me</div>
+          <div
+            id="about"
+            class="display-1"
+          >
+            This is me
+          </div>
         </v-col>
         <v-col>
-          <div class="body-1">{{aboutText}}</div>
-          <div class="body-1">Working Microverse</div>
+          <div class="body-1">
+            {{ aboutText }}
+          </div>
+          <div class="body-1">
+            Working Microverse
+          </div>
         </v-col>
       </v-row>
-      <div class="height-long" style="height: 600px;"></div>
+      <div
+        class="height-long"
+        style="height: 600px;"
+      />
       <v-row>
         <v-col>
-          <div class="display" id="portfolio">My Work</div>
+          <div
+            id="portfolio"
+            class="display"
+          >
+            My Work
+          </div>
         </v-col>
         <v-col>
           <Portfolio />
-           <!-- <template v-for="(app, i) in apps">
+          <!-- <template v-for="(app, i) in apps">
 
           </template>-->
         </v-col>
       </v-row>
-<div class="height-long" style="height: 600px;"></div>               
+      <div
+        class="height-long"
+        style="height: 600px;"
+      />               
       <v-row>
         <v-col cols="12">
-          <div class="display-1" id="contact"> Contact</div>
-
+          <div
+            id="contact"
+            class="display-1"
+          >
+            Contact
+          </div>
         </v-col>
         <v-col cols="12">
           <Contact />
         </v-col>
-
       </v-row>
-
-      
     </v-container>
-
-
   </div>
 </template>
 
