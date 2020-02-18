@@ -18,13 +18,49 @@
           >
             Johan Stiven Tinjaca
           </div>
-          <div class="caption black--text pa-0">
+          <div
+            :class="getFontSizeFullStack" 
+            class="black--text pa-0"
+          >
             Full Stack Developer
           </div>                    
         </v-col>
         <v-col
           cols="2"
-          class="d-flex align-end flex-column"
+          class=" d-none align-end flex-column  d-md-flex"
+        >
+          <div class="d-flex">
+            <v-list-item
+              light
+              @click="$vuetify.goTo('#about', options)"
+            >
+              <v-list-item-title class="title">
+                About me
+              </v-list-item-title>
+            </v-list-item>
+            <v-list-item
+                
+              light
+              @click="$vuetify.goTo('#portfolio', options)"
+            >
+              <v-list-item-title class="title">
+                My Work
+              </v-list-item-title>
+            </v-list-item>
+            <v-list-item
+                
+              light
+              @click="$vuetify.goTo('#contact', options)"
+            >
+              <v-list-item-title class="title">
+                Contact
+              </v-list-item-title>
+            </v-list-item>
+          </div>
+        </v-col>
+        <v-col
+          cols="2"
+          class="d-flex align-end flex-column d-md-none"
         >
           <v-menu offset-y>
             <template v-slot:activator="{ on }">
@@ -82,6 +118,9 @@ export default {
           },
           getFontSize(){
               return this.$vuetify.breakpoint.xs ? 'subheading': 'display-1'
+          },
+          getFontSizeFullStack(){
+              return this.$vuetify.breakpoint.xs ? 'caption': 'body-2'
           },
           cols () {
             const { lg, sm } = this.$vuetify.breakpoint

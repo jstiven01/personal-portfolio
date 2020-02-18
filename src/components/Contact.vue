@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column text-center">
+  <div class="d-flex flex-column flex-md-row col-md-5 mx-auto text-center">
     <v-list-item class="mx-auto">
       <v-list-item-icon class="mx-1">
         <v-icon>mdi-email</v-icon>
