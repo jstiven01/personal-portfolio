@@ -201,7 +201,7 @@
             <v-btn
               color="black"
               text
-              href="https://github.com/jstiven01/daily-food-intake-app"
+              href="https://jstiven01.github.io/"
               target="_blank"
             >
               Live Demo  <v-icon>mdi-link-box</v-icon>
