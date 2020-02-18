@@ -3,14 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "homepage": "https://jstiven01.github.io/personal-portfolio",
   "dependencies": {
     "@mdi/font": "^4.9.95",
     "@mdi/js": "^4.9.95",
     "core-js": "^3.6.4",
+    "gh-pages": "^2.2.0",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5",
     "vuetify": "^2.2.11"
