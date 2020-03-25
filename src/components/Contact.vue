@@ -4,7 +4,12 @@
       <v-list-item-icon class="mx-1">
         <v-icon>mdi-email</v-icon>
       </v-list-item-icon>
-      <v-list-item-title>stiven10@gmail.com</v-list-item-title>
+      <v-list-item-title>
+        <a
+          target="_top"
+          href="mailto:stiven10@gmail.com"
+        >stiven10@gmail.com</a>
+      </v-list-item-title>
     </v-list-item>
     <v-list-item class="mx-auto">
       <v-list-item-icon class="mx-1">
@@ -16,7 +21,7 @@
       <v-list-item-icon class="mx-1">
         <v-icon>mdi-github-circle</v-icon>
       </v-list-item-icon>
-      <v-list-item-title><a href="https://github.com/jstiven01">Github</a></v-list-item-title>
+      <v-list-item-title><a href="https://github.com/jstiven01">GitHub</a></v-list-item-title>
     </v-list-item>
   </div>
 </template>

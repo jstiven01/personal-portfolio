@@ -83,7 +83,7 @@
               <v-avatar left>
                 <v-icon>mdi-language-javascript</v-icon>
               </v-avatar>
-              Javascript
+              JavaScript
             </v-chip>
             <v-chip
               class="ma-2"
@@ -193,7 +193,7 @@
               <v-avatar left>
                 <v-icon>mdi-language-javascript</v-icon>
               </v-avatar>
-              Javascript
+              JavaScript
             </v-chip>
           </v-card-text>
 
@@ -335,7 +335,7 @@
           </v-img>
 
           <v-card-text class="text--primary">
-            <div>This project is about implementing the Battleship game using Vanila Javascript.Test Driven Development was implemented  with Jest framework</div>
+            <div>This project is about implementing the Battleship game using Vanila JavaScript.Test Driven Development was implemented  with Jest framework</div>
           </v-card-text>
           <v-card-text class="text--primary">
             <v-chip
@@ -346,7 +346,7 @@
               <v-avatar left>
                 <v-icon>mdi-language-javascript</v-icon>
               </v-avatar>
-              Javascript
+              JavaScript
             </v-chip>
   
             <v-chip

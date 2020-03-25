@@ -34,7 +34,7 @@
               light
               @click="$vuetify.goTo('#about', options)"
             >
-              <v-list-item-title class="title">
+              <v-list-item-title class="title text-link">
                 About me
               </v-list-item-title>
             </v-list-item>
@@ -43,7 +43,7 @@
               light
               @click="$vuetify.goTo('#portfolio', options)"
             >
-              <v-list-item-title class="title">
+              <v-list-item-title class="title text-link">
                 My Work
               </v-list-item-title>
             </v-list-item>
@@ -52,7 +52,7 @@
               light
               @click="$vuetify.goTo('#contact', options)"
             >
-              <v-list-item-title class="title">
+              <v-list-item-title class="title text-link">
                 Contact
               </v-list-item-title>
             </v-list-item>
@@ -129,3 +129,8 @@ export default {
     }
 }
 </script>
+<style scoped>
+.text-link{
+  text-decoration: underline;
+}
+</style>
