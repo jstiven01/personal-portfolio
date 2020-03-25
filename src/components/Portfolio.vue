@@ -20,7 +20,7 @@
           </v-img>
 
           <v-card-text class="text--primary">
-            <div>This app is a Mobile web app which helps you to track the daily food intake that you should eat. This project is based on a tracking app</div>
+            <div>This project is a mobile web app that helps you to track the daily food intake that you should eat and show a histogram with daily progress.</div>
           </v-card-text>
           <v-card-text class="text--primary">
             <v-chip
@@ -137,7 +137,7 @@
           </v-img>
 
           <v-card-text class="text--primary">
-            <div>This personal portfolio to show my experiencie and expertise in Software Development</div>
+            <div>This personal portfolio to show my experience and expertise as a software developer.</div>
           </v-card-text>
           <v-card-text class="text--primary">
             <v-chip
@@ -238,7 +238,7 @@
           </v-img>
 
           <v-card-text class="text--primary">
-            <div>This project is about building a large portion of the core Facebook user functionality. This Project was built using a set of integration tests which let you know if each page is loading properly and unit tests to make sure your associations have been properly set up</div>
+            <div>This project is about building a large portion of the core Facebook user functionality.</div>
           </v-card-text>
           <v-card-text class="text--primary">
             <v-chip
@@ -331,11 +331,11 @@
             aspect-ratio="1"
             contain       
           >
-            <v-card-title>BattleShip Game</v-card-title>
+            <v-card-title>Battleship Game</v-card-title>
           </v-img>
 
           <v-card-text class="text--primary">
-            <div>This project is about implementing the Battleship game using Vanila JavaScript.Test Driven Development was implemented  with Jest framework</div>
+            <div>This project is about implementing the battleship game using JavaScript.Test-Driven Development (TDD) was implemented with the Jest framework.</div>
           </v-card-text>
           <v-card-text class="text--primary">
             <v-chip
