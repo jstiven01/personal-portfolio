@@ -1,5 +1,9 @@
-# personal-portfolio
-> This project is about creating my personal portfolio using Vue and Vuetify.
+## Personal-portfolio
+> Creating my personal portfolio using Vue and Vuetify.
+
+## Screenshot
+<img src="./docs/screenshot.png" width="800" height="600">
+
 ## Built With
 
 - VueJS
@@ -36,5 +40,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 👤 **Johan Stiven Tinjacá Tocora**
 
 - Github: [@jstiven01](https://github.com/jstiven01)
+- Email: [stiven10@gmail.com](mailto:stiven10@gmail.com)
 - Twitter: [@TinjacaJohan](https://twitter.com/TinjacaJohan)
 - Linkedin: [Johan Tinjacá](https://www.linkedin.com/in/johanstiventinjaca/)
