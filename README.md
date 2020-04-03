@@ -4,6 +4,9 @@
 ## Screenshot
 <img src="./docs/screenshot.png" width="800" height="600">
 
+## Live Site
+[Go to Personal Portfolio](https://jstiven01.github.io/)
+
 ## Built With
 
 - VueJS
