@@ -82,7 +82,7 @@ export default {
   },
   data(){
     return{
-      aboutText: "I am a software developer for more than 15 years at different systems like financial, ERP, open-source systems, etc. Currently, I am passionate about Web development and Machine Learning. A person with teamwork abilities, strengths in objective decision making, willingness for learning and knowledge, skilled at development and testing software, planning, management and implementation of projects.",
+      aboutText: "I have been a software developer for more than 15 years at different systems like financial, ERP, open-source systems, etc. Currently, I am passionate about web development and Machine Learning. A person with teamwork abilities, strengths in objective decision making, willingness for learning and knowledge, skilled at development and testing software, planning, management and implementation of projects.",
 
     };
   },

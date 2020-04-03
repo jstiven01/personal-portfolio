@@ -25,6 +25,9 @@ export default {
   data: () => ({
     //
   }),
+          created () {
+            document.title = "Johan Tinjaca Portfolio.";
+        }
 };
 </script>
 

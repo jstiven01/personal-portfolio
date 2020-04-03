@@ -104,7 +104,7 @@
               href="https://fast-shelf-63763.herokuapp.com/"
               target="_blank"
             >
-              Live Demo  <v-icon>mdi-link-box</v-icon>
+              <span class="link-underline">Live Demo</span>  <v-icon>mdi-link-box</v-icon>
             </v-btn>
 
             <v-btn
@@ -113,7 +113,7 @@
               href="https://github.com/jstiven01/daily-food-intake-app"
               target="_blank"
             >
-              View Source  <v-icon>mdi-github-circle</v-icon>
+              <span class="link-underline">View Source </span>  <v-icon>mdi-github-circle</v-icon>
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -204,7 +204,7 @@
               href="https://jstiven01.github.io/"
               target="_blank"
             >
-              Live Demo  <v-icon>mdi-link-box</v-icon>
+              <span class="link-underline">Live Demo</span>  <v-icon>mdi-link-box</v-icon>
             </v-btn>
 
             <v-btn
@@ -213,7 +213,7 @@
               href="https://github.com/jstiven01/personal-portfolio"
               target="_blank"
             >
-              View Source  <v-icon>mdi-github-circle</v-icon>
+              <span class="link-underline">View Source </span>  <v-icon>mdi-github-circle</v-icon>
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -301,7 +301,7 @@
               href="https://intense-reaches-58174.herokuapp.com/users/sign_in"
               target="_blank"
             >
-              Live Demo  <v-icon>mdi-link-box</v-icon>
+              <span class="link-underline">Live Demo</span>  <v-icon>mdi-link-box</v-icon>
             </v-btn>
 
             <v-btn
@@ -310,7 +310,7 @@
               href="https://github.com/jstiven01/facebook-clone"
               target="_blank"
             >
-              View Source  <v-icon>mdi-github-circle</v-icon>
+              <span class="link-underline">View Source </span>  <v-icon>mdi-github-circle</v-icon>
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -399,7 +399,7 @@
               href="https://jstiven01.github.io/js-battleship/"
               target="_blank"
             >
-              Live Demo  <v-icon>mdi-link-box</v-icon>
+              <span class="link-underline">Live Demo</span>  <v-icon>mdi-link-box</v-icon>
             </v-btn>
 
             <v-btn
@@ -408,7 +408,7 @@
               href="https://github.com/jstiven01/js-battleship"
               target="_blank"
             >
-              View Source  <v-icon>mdi-github-circle</v-icon>
+              <span class="link-underline">View Source </span>  <v-icon>mdi-github-circle</v-icon>
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -427,4 +427,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+ .link-underline{
+   text-decoration: underline;
+ }
+</style>
 
