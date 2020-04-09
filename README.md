@@ -1,5 +1,5 @@
 ## Personal-portfolio
-> Creating my personal portfolio using Vue and Vuetify.
+> Creating my personal portfolio using Vue and Vuetify
 
 ## Screenshot
 <img src="./docs/screenshot.png" width="800" height="600">
@@ -15,7 +15,7 @@
 - CSS
 - ES6
 
-## Project setup
+## Project setup and Usage
 ```
 npm install
 ```
@@ -35,8 +35,13 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Automated Tests
+
+This project has no automated tests. This will be an upcoming feature
+
+## Upcoming Features
+
+To see the upcoming features check the [issues page](https://github.com/jstiven01/personal-portfolio/issues)
 
 ## Author
 
